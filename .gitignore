@@ -1,0 +1,23 @@
+# Ignore scans
+*.mhd
+*.raw
+
+# Ignore non-necessary folders
+.vscode/*
+
+# Ignore pdf files
+*.pdf
+
+# Ignore images
+*.jpg
+*.png
+
+# Ignore manual segmentations
+02_Data/*
+
+# Ignore large ML models
+*.joblib
+*.hdf5
+
+# Ignore tex files
+*.tex
